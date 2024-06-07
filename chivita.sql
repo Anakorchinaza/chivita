@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1:3306
--- Generation Time: May 31, 2024 at 08:19 AM
+-- Generation Time: Jun 07, 2024 at 03:37 AM
 -- Server version: 8.2.0
 -- PHP Version: 8.2.13
 
@@ -43,42 +43,42 @@ CREATE TABLE IF NOT EXISTS `answers` (
 --
 
 INSERT INTO `answers` (`id`, `question_id`, `answers`, `variant`, `created_at`, `updated_at`) VALUES
-(1, 1, 'Exploring a new hiking trail', 'Orange Fruit Juice', '2024-05-24 14:52:02', '0000-00-00 00:00:00'),
-(2, 1, 'Hosting a party with friends', 'Pineapple Fruit Juice', '2024-05-24 14:52:02', '0000-00-00 00:00:00'),
-(3, 1, 'Relaxing on a beach', 'Apple Fruit Juice', '2024-05-24 14:52:02', '0000-00-00 00:00:00'),
-(4, 1, 'Trying a new adventure sport', 'Red Grape Fruit Juice', '2024-05-24 14:52:02', '0000-00-00 00:00:00'),
-(5, 2, 'Active and outdoors', 'Power of 6 - Mixed Citrus Juice', '2024-05-24 14:54:36', '2024-05-26 01:34:38'),
-(6, 2, 'Social and lively', 'Active Zest - Mixed Fruit Drink', '2024-05-24 14:54:36', '2024-05-26 01:34:44'),
-(7, 2, 'Relaxed and rejuvenating', 'Power of Vegetable + Fruit Drink', '2024-05-24 14:54:36', '2024-05-24 14:57:37'),
-(8, 2, 'Cultural and exploratory', 'Pineapple & Coconut Nectar', '2024-05-24 14:54:36', '0000-00-00 00:00:00'),
-(9, 3, 'Sweet and tangy', 'Multifruita Nectar', '2024-05-24 14:57:19', '0000-00-00 00:00:00'),
-(10, 3, 'Fruity and tropical', 'Happy Hour Orange Safari', '2024-05-24 14:57:19', '0000-00-00 00:00:00'),
-(11, 3, 'Crisp and refreshing', 'Happy Hour Tasty Tango', '2024-05-24 14:57:19', '0000-00-00 00:00:00'),
-(12, 3, 'Bold and zesty', 'Power of Vegetable + Fruit Drink', '2024-05-24 14:57:19', '0000-00-00 00:00:00'),
-(13, 4, 'With excitement and enthusiasm', 'Active Zest - Mixed Fruit Drink', '2024-05-24 15:00:08', '2024-05-26 01:35:51'),
-(14, 4, 'With caution and consideration', 'Pineapple Fruit Juice', '2024-05-24 15:00:08', '0000-00-00 00:00:00'),
-(15, 4, 'With curiosity and openness', 'Apple Fruit Juice', '2024-05-24 15:00:08', '0000-00-00 00:00:00'),
-(16, 4, 'With skepticism and analysis', 'Red Grape Fruit Juice', '2024-05-24 15:00:08', '0000-00-00 00:00:00'),
-(17, 5, 'Trying new things', 'Happy Hour Orange Safari', '2024-05-24 15:02:35', '0000-00-00 00:00:00'),
-(18, 5, 'Spending time with friends and family', 'Power of Vegetable + Fruit (Carrot + Orange)', '2024-05-24 15:02:35', '0000-00-00 00:00:00'),
-(19, 5, 'Achieving personal goals', 'Happy Hour Tasty Tango', '2024-05-24 15:02:35', '0000-00-00 00:00:00'),
-(20, 5, 'Relaxing and unwinding', 'Ice Tea Lemon', '2024-05-24 15:02:35', '0000-00-00 00:00:00'),
-(21, 6, 'Adventurous and spontaneous', 'Pineapple & Coconut Nectar', '2024-05-24 15:04:45', '0000-00-00 00:00:00'),
-(22, 6, 'Social and outgoing', 'Active Zest - Mixed Fruit Drink', '2024-05-24 15:04:45', '2024-05-26 01:36:14'),
-(23, 6, 'Calm and reflective', 'Apple Fruit Juice', '2024-05-24 15:04:45', '0000-00-00 00:00:00'),
-(24, 6, 'Confident and assertive', 'Power of 6 - Mixed Citrus Juice', '2024-05-24 15:04:45', '2024-05-26 01:35:02'),
-(25, 7, 'Dive right in and figure it out as I go', 'Active Zest - Mixed Fruit \nDrink', '2024-05-24 15:08:09', '2024-05-26 01:35:06'),
-(26, 7, 'Take a step back, plan, and prioritize tasks', 'Power of 6 - Mixed \nCitrus Juice', '2024-05-24 15:08:09', '2024-05-26 01:37:07'),
-(27, 7, 'Collaborate with others to get multiple perspectives', 'Multifruita Nectar', '2024-05-24 15:08:09', '0000-00-00 00:00:00'),
-(28, 7, 'Break it down into smaller, manageable tasks', 'Happy Hour Orange Safari', '2024-05-24 15:08:09', '0000-00-00 00:00:00'),
-(29, 7, 'Research and gather information before starting', 'Power of Vegetable + Fruit (Carrot + Orange)', '2024-05-24 15:08:09', '0000-00-00 00:00:00'),
-(30, 7, 'Seek guidance and feedback from experts', 'Red Grape Fruit Juice', '2024-05-24 15:08:09', '0000-00-00 00:00:00'),
-(31, 8, 'Trying new adventures and taking risks', 'Pineapple & Coconut Nectar', '2024-05-24 15:11:30', '0000-00-00 00:00:00'),
-(32, 8, 'Relaxing and unwinding with a good book', 'Apple Fruit Juice', '2024-05-24 15:11:30', '0000-00-00 00:00:00'),
-(33, 8, 'Creating art or expressing myself creatively', 'Ice Tea Lemon', '2024-05-24 15:11:30', '2024-05-26 08:56:08'),
-(34, 8, 'Exploring new places and experiencing different cultures', 'Orange Fruit Juice', '2024-05-24 15:11:30', '0000-00-00 00:00:00'),
-(35, 8, 'Solving puzzles and playing strategic game', 'Power of 6 - Mixed Citrus Juice', '2024-05-24 15:11:30', '2024-05-26 01:36:43'),
-(36, 8, 'Hosting gatherings and bringing people together', 'Pineapple Fruit Juice', '2024-05-24 15:11:30', '0000-00-00 00:00:00');
+(1, 1, 'Exploring a new hiking trail', 'Chivita Active Orange & Carrot', '2024-05-24 14:52:02', '2024-06-07 02:51:11'),
+(2, 1, 'Hosting a party with friends', 'Chivita Pineapple Fruit Juice', '2024-05-24 14:52:02', '2024-06-07 02:52:49'),
+(3, 1, 'Relaxing on a beach', 'Chivita Pineapple & Coconut Nectar', '2024-05-24 14:52:02', '2024-06-07 02:55:40'),
+(4, 1, 'Trying a new adventure sport', 'Chivita Multifruita Nectar', '2024-05-24 14:52:02', '2024-06-07 03:21:56'),
+(5, 2, 'Active and outdoors', 'Chivita Active Citrus Mix', '2024-05-24 14:54:36', '2024-06-07 02:54:16'),
+(6, 2, 'Social and lively', 'Chivita Happy Hour Orange Safari', '2024-05-24 14:54:36', '2024-06-07 02:54:47'),
+(7, 2, 'Relaxed and rejuvenating', 'Chivita Ice Tea', '2024-05-24 14:54:36', '2024-06-07 02:55:08'),
+(8, 2, 'Cultural and exploratory', 'Chivita Pineapple & Coconut Nectar', '2024-05-24 14:54:36', '2024-06-07 02:55:25'),
+(9, 3, 'Sweet and tangy', 'Chivita Active Citrus Mix', '2024-05-24 14:57:19', '2024-06-07 03:04:47'),
+(10, 3, 'Fruity and tropical', 'Chivita Multifruita Nectar', '2024-05-24 14:57:19', '2024-06-07 03:11:11'),
+(11, 3, 'Crisp and refreshing', 'Chivita Ice Tea', '2024-05-24 14:57:19', '2024-06-07 02:57:24'),
+(12, 3, 'Bold and zesty', 'Chivita Active Zest', '2024-05-24 14:57:19', '2024-06-07 02:57:51'),
+(13, 4, 'With excitement and enthusiasm', 'Chivita Happy Hour Orange Safari', '2024-05-24 15:00:08', '2024-06-07 02:58:34'),
+(14, 4, 'With caution and consideration', 'Chivita Orange Fruit Juice', '2024-05-24 15:00:08', '2024-06-07 03:26:46'),
+(15, 4, 'With curiosity and openness', 'Chivita Apple Fruit Juice', '2024-05-24 15:00:08', '2024-06-07 02:59:05'),
+(16, 4, 'With skepticism and analysis', 'Chivita Red Grape Fruit Juice', '2024-05-24 15:00:08', '2024-06-07 02:59:20'),
+(17, 5, 'Trying new things', 'Chivita Multifruita', '2024-05-24 15:02:35', '2024-06-07 03:00:55'),
+(18, 5, 'Spending time with friends and family', 'Chivita Orange Fruit Juice', '2024-05-24 15:02:35', '2024-06-07 03:28:38'),
+(19, 5, 'Achieving personal goals', 'Chivita Active Orange & Carrot', '2024-05-24 15:02:35', '2024-06-07 03:01:30'),
+(20, 5, 'Relaxing and unwinding', 'Chivita Pineapple & Coconut Nectar', '2024-05-24 15:02:35', '2024-06-07 03:02:00'),
+(21, 6, 'Adventurous and spontaneous', 'Chivita Pineapple & Coconut Nectar', '2024-05-24 15:04:45', '2024-06-07 03:02:52'),
+(22, 6, 'Social and outgoing', 'Chivita Active Citrus Mix', '2024-05-24 15:04:45', '2024-06-07 03:05:13'),
+(23, 6, 'Calm and reflective', 'Chivita Apple Fruit Juice', '2024-05-24 15:04:45', '2024-06-07 03:05:30'),
+(24, 6, 'Confident and assertive', 'Chivita Orange Fruit Juice ', '2024-05-24 15:04:45', '2024-06-07 03:31:11'),
+(25, 7, 'Dive right in and figure it out as I go', 'Chivita Active Zest', '2024-05-24 15:08:09', '2024-06-07 03:06:53'),
+(26, 7, 'Take a step back, plan, and prioritize tasks', 'Chivita Pineapple Fruit Juice', '2024-05-24 15:08:09', '2024-06-07 03:08:09'),
+(27, 7, 'Collaborate with others to get multiple perspectives', 'Chivita Multifruita Nectar', '2024-05-24 15:08:09', '2024-06-07 03:08:56'),
+(28, 7, 'Break it down into smaller, manageable tasks', 'Chivita Ice Tea', '2024-05-24 15:08:09', '2024-06-07 03:11:38'),
+(29, 7, 'Research and gather information before starting', 'Chivita Active Orange & Carrot', '2024-05-24 15:08:09', '2024-06-07 03:12:38'),
+(30, 7, 'Seek guidance and feedback from experts', 'Chivita Red Grape Fruit Juice', '2024-05-24 15:08:09', '2024-06-07 03:13:24'),
+(31, 8, 'Trying new adventures and taking risks', 'Chivita Pineapple & Coconut Nectar', '2024-05-24 15:11:30', '2024-06-07 03:14:02'),
+(32, 8, 'Relaxing and unwinding with a good book', 'Chivita Red Grape Fruit Juice', '2024-05-24 15:11:30', '2024-06-07 03:14:20'),
+(33, 8, 'Creating art or expressing myself creatively', 'Chivita Multifruita Nectar', '2024-05-24 15:11:30', '2024-06-07 03:14:58'),
+(34, 8, 'Exploring new places and experiencing different cultures', 'Chivita Active Citrus Mix', '2024-05-24 15:11:30', '2024-06-07 03:15:39'),
+(35, 8, 'Solving puzzles and playing strategic game', 'Chivita Orange Fruit Juice', '2024-05-24 15:11:30', '2024-06-07 03:30:39'),
+(36, 8, 'Hosting gatherings and bringing people together', 'Chivita Pineapple Fruit Juice', '2024-05-24 15:11:30', '2024-06-07 03:16:30');
 
 -- --------------------------------------------------------
 
@@ -228,7 +228,7 @@ INSERT INTO `questions` (`id`, `questions`, `created_at`, `updated_at`) VALUES
 (2, 'How would you describe your ideal weekend?', '2024-05-24 14:39:41', '0000-00-00 00:00:00'),
 (3, 'Which flavor profile do you prefer?', '2024-05-24 14:39:41', '0000-00-00 00:00:00'),
 (4, 'How do you approach new experiences?', '2024-05-24 14:39:41', '0000-00-00 00:00:00'),
-(5, 'What motivates you?', '2024-05-24 14:39:41', '0000-00-00 00:00:00'),
+(5, 'What gives you the happy dance?', '2024-05-24 14:39:41', '2024-06-07 02:45:22'),
 (6, 'How would you describe your personality?', '2024-05-24 14:39:41', '0000-00-00 00:00:00'),
 (7, 'When working on a project, I usually', '2024-05-24 14:39:41', '0000-00-00 00:00:00'),
 (8, 'In my free time, I enjoy?', '2024-05-24 14:39:41', '0000-00-00 00:00:00');
@@ -255,18 +255,18 @@ CREATE TABLE IF NOT EXISTS `result` (
 --
 
 INSERT INTO `result` (`id`, `variant`, `description`, `img`, `created_at`, `updated_at`) VALUES
-(1, 'Orange Fruit Juice', 'Orange Fruit Juice is made from real natural fruits. It\'s an excellent source of Vitamin C and Magnesium you need for normal function of immune and nervous system respectively. Get transported into the luscious world of 100% natural fruits with no added sugar or preservatives served in a convenient pack to enrich your health. Make your breakfast complete with Chivita 100%', '/assets/Chivita_variant_pictures/chivita-orange-juice.png', '2024-05-25 23:40:52', '2024-05-30 07:18:36'),
-(2, 'Pineapple Fruit Juice', 'Pineapple Fruit Juice is made from real natural fruits. It\'s an excellent source of Calcium and Magnesium you need for normal function of digestive and nervous system respectively. Get transported into the luscious world of 100% natural fruits with no added sugar or preservatives served in a convenient pack to enrich your health. Make your breakfast complete with Chivita 100%.', '/assets/Chivita_variant_pictures/chivita-pinapple-juice.png', '2024-05-25 23:43:04', '2024-05-30 07:18:57'),
-(3, 'Apple Fruit Juice', 'Apple Fruit Juice is made from real natural fruits. It\'s an excellent source of Calcium and Magnesium you need for normal function of digestive and nervous system respectively. Get transported into the luscious world of 100% natural fruits with no added sugar or preservatives served in a convenient pack to enrich your health. Make your breakfast complete with Chivita 100%.', '/assets/Chivita_variant_pictures/chivita-apple-juice1.png', '2024-05-25 23:45:08', '2024-05-30 07:19:28'),
-(4, 'Red Grape Fruit Juice', 'Red Grapefruit Juice is made from real natural fruits. It\'s an excellent source of Calcium and Magnesium you need for normal function of digestive and nervous system respectively. Get transported into the luscious world of 100% natural fruits with no added sugar or preservatives served in a convenient pack to enrich your health. Make your breakfast complete with Chivita 100%.', '/assets/Chivita_variant_pictures/chivita-red-grape-juice.png', '2024-05-25 23:46:40', '2024-05-30 07:19:46'),
-(5, 'Power of 6 - Mixed Citrus Juice', 'Chivita Active is a unique blend of six citrus fruits of Tangerine, Grapefruit, Lemon, Mandarine, Lime and Orange. Chivita Active is enriched with Vitamin C to energize you all day – A perfect partner on your journey to live a healthy active. ', '/assets/Chivita_variant_pictures/chivita-citrus-mix.png', '2024-05-25 23:48:05', '2024-05-30 07:24:18'),
-(6, 'Active Zest - Mixed Fruit Drink', 'Active Zest – Mixed Fruit Drink is made from the best quality fruits and vegetables, perfectly blended with the goodness of Vitamins and nutrients. Active Zest – Mixed Fruit Drink is a healthy and tasty way to get the regular dose of antioxidants and stamina for an active healthy lifestyle.', '/assets/Chivita_variant_pictures/active-zest.png', '2024-05-25 23:49:42', '2024-05-31 08:18:32'),
-(7, 'Power of Vegetable + Fruit (Carrot + Orange)', 'Chivita Active Vegetable Fruit Nectar Carrot & Orange is a sparkling, lovely and refreshing juice drink. It is sweet, crisp and tasty. Produced to the highest standards of quality', '/assets/Chivita_variant_pictures/prdts_powerOfVeggie.jpg', '2024-05-25 23:51:06', '2024-05-30 07:33:00'),
-(8, 'Pineapple & Coconut Nectar', 'A perfect blend of Sun-ripened Pineapple and Coconut water to give you that irresistible Taste you love. Whether its drunk alone or mixed with other drinks, what you get is a delicious pleasure of exotic indulgence and an irresistible Taste. So delicious that you cannot but enjoy every moment of life with it!', '/assets/Chivita_variant_pictures/chivita_exotic_pineapple_and_coconut.png', '2024-05-25 23:52:08', '2024-05-30 07:33:59'),
-(9, 'Multifruita Nectar', 'In our quest to deliver a taste like no other, we find Chi Exotic Multifruita Nectar. Chi Exotic Multifruita is a rare and unique blend of 10 rich tropical fruits to deliver a distinctive taste that’s too good not to share.', '/assets/Chivita_variant_pictures/chivita_exotic_multifruita_nectar.png', '2024-05-25 23:53:09', '2024-05-30 07:34:41'),
-(10, 'Happy Hour Orange Safari', 'Happy Hour by Chivita is a range of refreshing still drinks. Give your mood a boost with the ever-refreshing Happy Hour. Every sip burst into flavors that guarantee to keep you smiling.', '/assets/Chivita_variant_pictures/Chivita_HappyHour_Orange_Safari.png', '2024-05-25 23:54:22', '2024-05-30 07:35:17'),
+(1, 'Chivita Orange Fruit Juice', 'Orange Fruit Juice is made from real natural fruits. It\'s an excellent source of Vitamin C and Magnesium you need for normal function of immune and nervous system respectively. Get transported into the luscious world of 100% natural fruits with no added sugar or preservatives served in a convenient pack to enrich your health. Make your breakfast complete with Chivita 100%', '/assets/Chivita_variant_pictures/chivita-orange-juice.png', '2024-05-25 23:40:52', '2024-06-07 03:32:37'),
+(2, 'Chivita Pineapple Fruit Juice', 'Pineapple Fruit Juice is made from real natural fruits. It\'s an excellent source of Calcium and Magnesium you need for normal function of digestive and nervous system respectively. Get transported into the luscious world of 100% natural fruits with no added sugar or preservatives served in a convenient pack to enrich your health. Make your breakfast complete with Chivita 100%.', '/assets/Chivita_variant_pictures/chivita-pinapple-juice.png', '2024-05-25 23:43:04', '2024-06-07 03:32:58'),
+(3, 'Chivita Apple Fruit Juice', 'Apple Fruit Juice is made from real natural fruits. It\'s an excellent source of Calcium and Magnesium you need for normal function of digestive and nervous system respectively. Get transported into the luscious world of 100% natural fruits with no added sugar or preservatives served in a convenient pack to enrich your health. Make your breakfast complete with Chivita 100%.', '/assets/Chivita_variant_pictures/chivita-apple-juice1.png', '2024-05-25 23:45:08', '2024-06-07 03:33:28'),
+(4, 'Chivita Red Grape Fruit Juice', 'Red Grapefruit Juice is made from real natural fruits. It\'s an excellent source of Calcium and Magnesium you need for normal function of digestive and nervous system respectively. Get transported into the luscious world of 100% natural fruits with no added sugar or preservatives served in a convenient pack to enrich your health. Make your breakfast complete with Chivita 100%.', '/assets/Chivita_variant_pictures/chivita-red-grape-juice.png', '2024-05-25 23:46:40', '2024-06-07 03:33:43'),
+(5, 'Chivita Active Citrus Mix', 'Chivita Active is a unique blend of six citrus fruits of Tangerine, Grapefruit, Lemon, Mandarine, Lime and Orange. Chivita Active is enriched with Vitamin C to energize you all day – A perfect partner on your journey to live a healthy active. ', '/assets/Chivita_variant_pictures/chivita-citrus-mix.png', '2024-05-25 23:48:05', '2024-06-07 03:34:28'),
+(6, 'Chivita Active Zest', 'Active Zest – Mixed Fruit Drink is made from the best quality fruits and vegetables, perfectly blended with the goodness of Vitamins and nutrients. Active Zest – Mixed Fruit Drink is a healthy and tasty way to get the regular dose of antioxidants and stamina for an active healthy lifestyle.', '/assets/Chivita_variant_pictures/active-zest.png', '2024-05-25 23:49:42', '2024-06-07 03:35:04'),
+(7, 'Chivita Active Orange & Carrot', 'Chivita Active Vegetable Fruit Nectar Carrot & Orange is a sparkling, lovely and refreshing juice drink. It is sweet, crisp and tasty. Produced to the highest standards of quality', '/assets/Chivita_variant_pictures/prdts_powerOfVeggie.jpg', '2024-05-25 23:51:06', '2024-06-07 03:35:23'),
+(8, 'Chivita Pineapple & Coconut Nectar', 'A perfect blend of Sun-ripened Pineapple and Coconut water to give you that irresistible Taste you love. Whether its drunk alone or mixed with other drinks, what you get is a delicious pleasure of exotic indulgence and an irresistible Taste. So delicious that you cannot but enjoy every moment of life with it!', '/assets/Chivita_variant_pictures/chivita_exotic_pineapple_and_coconut.png', '2024-05-25 23:52:08', '2024-06-07 03:35:37'),
+(9, 'Chivita Multifruita Nectar', 'In our quest to deliver a taste like no other, we find Chi Exotic Multifruita Nectar. Chi Exotic Multifruita is a rare and unique blend of 10 rich tropical fruits to deliver a distinctive taste that’s too good not to share.', '/assets/Chivita_variant_pictures/chivita_exotic_multifruita_nectar.png', '2024-05-25 23:53:09', '2024-06-07 03:35:58'),
+(10, 'Chivita Happy Hour Orange Safari', 'Happy Hour by Chivita is a range of refreshing still drinks. Give your mood a boost with the ever-refreshing Happy Hour. Every sip burst into flavors that guarantee to keep you smiling.', '/assets/Chivita_variant_pictures/Chivita_HappyHour_Orange_Safari.png', '2024-05-25 23:54:22', '2024-06-07 03:36:45'),
 (11, 'Happy Hour Tasty Tango', 'Happy Hour by Chivita is a range of refreshing still drinks. Give your mood a boost with the ever-refreshing Happy Hour. Every sip burst into flavours that guarantee to keep you smiling.', '/assets/Chivita_variant_pictures/Chivita_happy_hour_tasty_tango.png', '2024-05-26 00:00:34', '2024-05-30 07:35:50'),
-(12, 'Ice Tea Lemon', 'Chivita Ice Tea is a blend of natural tea extracts with fruity flavours. Launched originally as Chi Ice Tea in 2009, its the first RTD Ice Tea to be introduced into the Nigerian market. Chivita Ice Tea is your go to drink for natural refreshment and rejuvenation. ', '/assets/Chivita_variant_pictures/Chi-Ice-Tea-1-Litre_prev_ui.png', '2024-05-26 00:01:35', '2024-05-31 08:18:04');
+(12, 'Chivita Ice Tea', 'Chivita Ice Tea is a blend of natural tea extracts with fruity flavours. Launched originally as Chi Ice Tea in 2009, its the first RTD Ice Tea to be introduced into the Nigerian market. Chivita Ice Tea is your go to drink for natural refreshment and rejuvenation. ', '/assets/Chivita_variant_pictures/Chi-Ice-Tea-1-Litre_prev_ui.png', '2024-05-26 00:01:35', '2024-06-07 03:36:24');
 
 -- --------------------------------------------------------
 

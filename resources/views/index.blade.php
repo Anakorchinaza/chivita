@@ -287,7 +287,7 @@
 								<div class="wizard-forms">
 									<div class="survey-content-area">
 										<div class="survey-top-title text-center position-relative">
-											<h2>What motivates you?</h2>
+											<h2>What gives you the happy dance?	</h2>
 										</div>
 										<div class="survey-form-area clearfix">
 											<div class="survey-form-content">
