@@ -578,11 +578,7 @@
 							<div class="modal-body">
 								<p class="friendly-message">To help you find your perfect Chivita match, please tell us a bit about yourself.</p>
 								<form id="userDetailsForm" method="POST" action="{{ route('user.details.submit') }}" >
-									@csrf
-									<div class="form-group">
-										<label for="userName" class="sr-only">Name</label>
-										<input type="text" class="form-control" id="userName" name="name" placeholder="Your name" required>
-									</div>
+									@csrf									
 									<div class="form-group">
 										<label for="userEmail" class="sr-only">Email</label>
 										<input type="email" class="form-control" id="userEmail" name="email" placeholder="Your email" required>
@@ -590,7 +586,7 @@
 								</form>
 							</div>
 							<div class="modal-footer">
-								<button type="submit" form="userDetailsForm" class="btn btn-primary">Start the Quiz!</button>
+								<button type="submit" form="userDetailsForm" class="btn btn-primary" style="background-color: #EB0010">Start the Quiz!</button>
 							</div>
 						</div>
 					</div>
@@ -627,27 +623,19 @@
 
                 // Validate the form
                 $('#userDetailsForm').validate({
-                    rules: {
-                        name: {
-                            required: true,
-                            minlength: 2
-                        },
+                    rules: {                       
                         email: {
                             required: true,
                             email: true
                         }
                     },
-                    messages: {
-                        name: {
-                            required: "Please enter your name",
-                            minlength: "Your name must be at least 2 characters long"
-                        },
+                    messages: {                     
                         email: {
                             required: "Please enter your email",
                             email: "Please enter a valid email address"
                         }
                     },
-					errorClass: "error", // Use the CSS class defined above
+					errorClass: "error",
 					errorPlacement: function(error, element) {
 						error.insertAfter(element);
 					},
@@ -661,14 +649,14 @@
 
 								//On successful response, hide the modal
 								$('#userDetailsModal').modal('hide'); 	
-								
-								 // Store user ID in session
-								@php
-									session(['user_id' => Auth::id()]);
-								@endphp
 
 								// Display the success message
-								alert("Details submitted successfully!");
+								if (response.message) {
+									alert(response.message);
+								} else {
+									alert("Details submitted successfully!");
+								}					
+														
 							},
 							error: function(response) {
 								if(response.status === 422) { // Laravel validation error status code

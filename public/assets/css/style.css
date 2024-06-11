@@ -30,12 +30,12 @@ body {
 
 ::selection {
   color: #fff;
-  background-color: #EB6A26;
+  background-color: #EB0010;
 }
 
 ::-moz-selection {
   color: #fff;
-  background-color: #EB6A26;
+  background-color: #EB0010;
 }
 
 ul {
@@ -116,7 +116,7 @@ h6 {
   font-size: 22px;
   cursor: pointer;
   content: "";
-  color: #EB6A26;
+  color: #EB0010;
   font-weight: 400;
   font-family: "Font Awesome 5 Free";
 }
@@ -279,7 +279,7 @@ h6 {
   transition: 0.3s all ease-in-out;
 }
 .actions li span:hover, .actions li button:hover {
-  background-color: #EB6A26;
+  background-color: #EB0010;
   color: #fff;
 }
 
@@ -299,7 +299,7 @@ h6 {
 }
 .wizard-progress .progress-bar {
   border-radius: 30px;
-  background-color: #EB6A26;
+  background-color: #EB0010;
 }
 
 /*---------------------------------------------------- */
@@ -330,7 +330,7 @@ h6 {
   height: 100%;
   position: absolute;
   border-radius: 100px;
-  background-color: #EB6A26;
+  background-color: #EB0010;
 }
 .wizard-content-1 .survey-top-title:after {
   top: 0;
@@ -399,7 +399,7 @@ h6 {
   display: none;
   position: absolute;
   border-radius: 100%;
-  background-color: #EB6A26;
+  background-color: #EB0010;
 }
 .wizard-content-1 .survey-form-field li .exp-option-box:checked ~ .checkmark-border:after {
   display: block;
@@ -422,7 +422,7 @@ h6 {
   height: 80px;
   border-radius: 4px;
   padding-left: 90px;
-  border: 2px solid #EB6A26;
+  border: 2px solid #EB0010;
 }
 .wizard-content-1 .survey-content-two .survey-form-field .q-depth-input-area .input-depth .in-icon {
   top: 23px;
@@ -435,14 +435,14 @@ h6 {
   background-color: #def7e5;
 }
 .wizard-content-1 .survey-content-two .survey-form-field .q-depth-input-area .input-depth .in-icon i {
-  color: #EB6A26;
+  color: #EB0010;
 }
 .wizard-content-1 .survey-content-two .survey-form-field .survey-ratting {
   margin: 18px 0px 65px;
   border-radius: 5px;
   display: inline-block;
   padding: 10px 40px 30px;
-  border: 2px solid #EB6A26;
+  border: 2px solid #EB0010;
 }
 .wizard-content-1 .survey-content-two .survey-form-field .survey-ratting .survey-rate-text {
   left: 0;
@@ -457,7 +457,7 @@ h6 {
   line-height: 27px;
   position: absolute;
   border-radius: 6px;
-  background-color: #EB6A26;
+  background-color: #EB0010;
 }
 .wizard-content-1 .survey-content-two .survey-form-field .survey-ratting li {
   width: 30px;
@@ -506,7 +506,7 @@ h6 {
   font-size: 18px;
   border-radius: 4px;
   padding-left: 35px;
-  border: 2px solid #EB6A26;
+  border: 2px solid #EB0010;
   -webkit-appearance: none;
 }
 .wizard-content-1 .survey-content-two .survey-thankyou p {
@@ -624,7 +624,7 @@ h6 {
     text-align: center;
   }
   .actions li {
-    background-color: #EB6A26;
+    background-color: #EB0010;
   }
 }
 @media screen and (max-width: 480px) {
@@ -685,7 +685,7 @@ h6 {
 }
 .modal-friendly .modal-title {
   font-size: 1.8em;
-  color: #ff5722;
+  color: #EB0010;
 }
 .modal-friendly .modal-body {
   text-align: center;
@@ -696,17 +696,17 @@ h6 {
 }
 .modal-friendly .form-control {
   border-radius: 2rem;
-  border: 1px solid #ff5722;
+  border: 1px solid #EB0010;
   padding: 0.5rem 1rem;
 }
 .modal-friendly .btn-primary {
   border-radius: 2rem;
-  background-color: #ff5722;
+  background-color: #EB0010;
   border: none;
   padding: 0.5rem 2rem;
 }
 .modal-friendly .btn-primary:hover {
-  background-color: #e64a19;
+  background-color: #EB0010;
 }
 .modal-friendly .modal-footer {
   border-top: none;

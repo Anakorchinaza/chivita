@@ -56,7 +56,10 @@
 										</div>
 										<div class="survey-form-field">
 											<div class="survey-thankyou">
-												<img src="{{ session('image') }}" alt="" style="margin-top: -120px">
+												<div class="col-md-4 offset-md-4">
+													<img src="{{ session('image') }}" class="img-fluid" alt="" style="margin-top: -100px">
+												</div>
+												
 												<p class="mt-3"> {{ session('description') }}</p>
 												<div class="share-result mt-4">
 													<h4>Share your result:</h4>
