@@ -576,7 +576,7 @@
 								<h5 class="modal-title" id="userDetailsModalLabel">Find Your Chivita!</h5>
 							</div>
 							<div class="modal-body">
-								<p class="friendly-message">To help you find your perfect Chivita match, please tell us a bit about yourself.</p>
+								<p class="friendly-message">To help you find your perfect Chivita match, and give you personalized rewards and recommendations, please provide your email.</p>				
 								<form id="userDetailsForm" method="POST" action="{{ route('user.details.submit') }}" >
 									@csrf									
 									<div class="form-group">
